@@ -21,7 +21,6 @@ const todoList = () => {
 
   const dueToday = () => {
       arr=[]
-    // Write the date check condition here and return the array of todo items that are due today accordingly.
       for(let i=0;i<all.length;i++){
           if(all[i].dueDate===today){
               //console.log(all[i])
@@ -36,7 +35,6 @@ const todoList = () => {
   const dueLater = () => {
       arr=[]
 
-    // Write the date check condition here and return the array of todo items that are due later accordingly.
       for(let i=0;i<all.length;i++){
           if(all[i].dueDate==tomorrow){
               arr.push(all[i])
